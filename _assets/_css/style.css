@@ -1,0 +1,14 @@
+/*---------------
+Fonte Logo(Satisfy)
+Fonte Não Serifada(Roboto)
+Fonte Serifada(PT-Serif)
+-----------------*/
+
+@import 'https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Satisfy';
+
+
+/*Reset-Basico*/
+*{
+    margin:0;
+    padding:0;
+}
