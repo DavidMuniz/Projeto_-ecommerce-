@@ -99,15 +99,34 @@
                             </div>
 
                             <div class="available-filter">
-                                <p>Available</p>
-                                <input type="radio" name="availabe"> In Storage
-                                <input type="radio" name="availabe"> In Online-Shop
-                                <p>Brands</p>
-                                <input type="checkbox"> Apple
-                                <input type="checkbox"> Jbl
-                                <input type="checkbox"> Bose
-                                <input type="checkbox"> Nest
-                                <a href="#0">Show All</a>
+                              <form action="">
+                              <fieldset class="available">
+
+                                    <legend>Available</legend>
+                                    <input type="radio" name="available" id="storage"><label for="" id="storage">In Storage</label>
+                                    <br>
+                                    <input type="radio" name="available" id="storage"> <label for="storage">In Online-Shop</label>
+
+                                </fieldset>
+                                <fieldset class="brands">
+
+                                    <legend>Brands</legend>
+                                    <input type="checkbox" id="brands">
+                                    <label for="brands">Apple</label>
+                                    <br>
+                                    <input type="checkbox" id="brands">
+                                    <label for="brands">Jbl</label>
+                                    <br>
+                                    <input type="checkbox" id="brands">
+                                    <label for="brands">Bose</label>
+                                    <br>
+                                    <input type="checkbox" id="brands">
+                                    <label for="brands" >Nest</label>
+                                    <br>
+                                    <a href="#0">Show All</a>
+
+                                </fieldset>
+                                </form>
                             </div>
                         </aside>
                     </div>

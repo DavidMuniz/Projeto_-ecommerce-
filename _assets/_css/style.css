@@ -170,7 +170,7 @@ body{
     text-align: center;
     background: #fff;
     border: 1px solid #fff;
-    border-radius: 3px 3px;
+    border-radius: 10px;
 }
 .filter-bar label{
     font-family:'Roboto',sans-serif;
@@ -220,7 +220,7 @@ body{
     Barra Lateral  -- Menu DropDown
 -----------------------------------------------------------------*/
 
-.aside-bar{
+.aside-dropdown{
     background: #fff;
     border:solid 1px #f4f4f4;
     border-radius:10px;
@@ -264,6 +264,61 @@ body{
     background:#234cfc;
     color:#fff;
 }
+
+.available-filter{
+    background: #fff;
+    border:solid 1px #f4f4f4;
+    border-radius:10px;
+    margin:10px 0;
+    position: relative;
+    padding: 10px 0;
+}
+.available-filter fieldset{
+     border:none;
+}
+.available-filter legend{
+    text-decoration: none;
+    font-family:'Roboto',sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+    color:#393939;
+    text-transform: uppercase;
+    padding:10px 20px;
+    border-bottom:solid 1px #f4f4f4;
+    width: 100%;
+    margin:10px 0;
+}
+.available-filter label{
+    font-family:'Roboto',sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 1.0em;
+    color:#393939;
+}
+.available-filter input{
+    margin: 5px 20px;
+}
+.available-filter a{
+    position: absolute;
+    right:10px;
+    bottom: 10px;
+    font-family:'Roboto',sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 1.0em;
+    color:#393939;
+    text-decoration: none;
+}
+.available-filter a:hover{
+    color:#234cfc;
+}
+.available{
+    margin-bottom: 20px;
+}
+/*-----------------------------------------------------------------
+    Grade de Produtos
+-----------------------------------------------------------------*/
 
 .product img{
     width: 90%;
