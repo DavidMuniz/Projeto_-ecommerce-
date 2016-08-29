@@ -8,10 +8,10 @@
     <script src="_assets/_js/jquery-3.1.js"></script>
     <!--    Menu DropDown-->
     <script>
-        $(document).ready(function(e){
-           $('.sub').click(function(){
-              $(this).toggleClass('tap');
-           });
+        $(document).ready(function (e) {
+            $('.sub').click(function () {
+                $(this).toggleClass('tap');
+            });
         });
     </script>
     <!--    Menu DropDown-->
@@ -70,11 +70,11 @@
                             <div class="clear"></div>
                         </div>
                     </div>
-                    <!--coluna filter-bar-->
+                    <!--/coluna filter-bar-->
                 </div>
-                <!--linha filter-bar-->
+                <!--/linha filter-bar-->
             </div>
-            <!--container filter-bar-->
+            <!--/container filter-bar-->
 
             <div class="container">
                 <div class="row">
@@ -99,38 +99,40 @@
                             </div>
 
                             <div class="available-filter">
-                              <form action="">
-                              <fieldset class="available">
+                                <form action="">
+                                    <fieldset class="available">
 
-                                    <legend>Available</legend>
-                                    <input type="radio" name="available" id="storage"><label for="" id="storage">In Storage</label>
-                                    <br>
-                                    <input type="radio" name="available" id="storage"> <label for="storage">In Online-Shop</label>
+                                        <legend>Available</legend>
+                                        <input type="radio" name="available" id="storage">
+                                        <label for="" id="storage">In Storage</label>
+                                        <br>
+                                        <input type="radio" name="available" id="storage">
+                                        <label for="storage">In Online-Shop</label>
 
-                                </fieldset>
-                                <fieldset class="brands">
+                                    </fieldset>
+                                    <fieldset class="brands">
 
-                                    <legend>Brands</legend>
-                                    <input type="checkbox" id="brands">
-                                    <label for="brands">Apple</label>
-                                    <br>
-                                    <input type="checkbox" id="brands">
-                                    <label for="brands">Jbl</label>
-                                    <br>
-                                    <input type="checkbox" id="brands">
-                                    <label for="brands">Bose</label>
-                                    <br>
-                                    <input type="checkbox" id="brands">
-                                    <label for="brands" >Nest</label>
-                                    <br>
-                                    <a href="#0">Show All</a>
+                                        <legend>Brands</legend>
+                                        <input type="checkbox" id="brands">
+                                        <label for="brands">Apple</label>
+                                        <br>
+                                        <input type="checkbox" id="brands">
+                                        <label for="brands">Jbl</label>
+                                        <br>
+                                        <input type="checkbox" id="brands">
+                                        <label for="brands">Bose</label>
+                                        <br>
+                                        <input type="checkbox" id="brands">
+                                        <label for="brands">Nest</label>
+                                        <br>
+                                        <a href="#0">Show All</a>
 
-                                </fieldset>
+                                    </fieldset>
                                 </form>
                             </div>
                         </aside>
                     </div>
-                    <!-- sidebar -->
+                    <!-- /sidebar -->
                     <div class="col col-content">
                         <section class="assets-products">
 
@@ -140,18 +142,21 @@
                                     <h1>Apple TV 32GB</h1>
                                     <p>Black</p>
                                     <p>$49,99</p>
+                                    <span>Teste</span>
                                 </article>
                                 <article class="product">
                                     <img src="_assets/_img/_products/peeble-time.png" alt="[Peeble Time !]" title="Peeble Time">
                                     <h1>Pebble Time</h1>
                                     <p>Red</p>
                                     <p>$29,99</p>
+                                    <span>Teste</span>
                                 </article>
                                 <article class="product">
                                     <img src="_assets/_img/_products/zendure.png" alt="[Zendure]" title="Zendure">
                                     <h1>Zendure 4-Port USB</h1>
                                     <p>White</p>
                                     <p>$49,99</p>
+                                    <span>Teste</span>
                                 </article>
                             </div>
 
@@ -161,18 +166,21 @@
                                     <h1>Zendure 4-Port USB</h1>
                                     <p>White</p>
                                     <p>$49,99</p>
+                                    <span>Teste</span>
                                 </article>
                                 <article class="product">
                                     <img src="_assets/_img/_products/Photo.png" alt="[Apple Tv ]" title="Apple Tv ">
                                     <h1>Apple TV 32GB</h1>
                                     <p>Black</p>
                                     <p>$49,99</p>
+                                    <span>Teste</span>
                                 </article>
                                 <article class="product">
                                     <img src="_assets/_img/_products/olo-clip.png" alt="[Ollo Clip]" title="Ollo Clip">
                                     <h1>Ollo Clip New</h1>
                                     <p>Silver</p>
                                     <p>$19,99</p>
+                                    <span>Teste</span>
                                 </article>
                             </div>
 
@@ -182,27 +190,53 @@
                                     <h1>Fitbit Charge HR</h1>
                                     <p>Black</p>
                                     <p>$49,99</p>
+                                    <span>Teste</span>
                                 </article>
                                 <article class="product">
                                     <img src="_assets/_img/_products/apple-watch.png" alt="[Apple Watch]" title="Apple Watch">
                                     <h1>Apple TV 32GB</h1>
                                     <p>Black</p>
                                     <p>$49,99</p>
+                                    <span>Teste</span>
                                 </article>
                                 <article class="product">
                                     <img src="_assets/_img/_products/bose-soundlink.png" alt="[Bose Sound Link]" title="Sound Link">
                                     <h1>Bose SoundLink On-Ear HeadPhones</h1>
                                     <p>White</p>
                                     <p>$119,99</p>
+                                    <span>Teste</span>
                                 </article>
                             </div>
                         </section>
                     </div>
-                    <!-- content -->
+                    <!-- /content -->
                 </div>
-                <!-- row -->
+                <!-- /row -->
             </div>
-            <!-- container -->
+            <!-- /container -->
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <section class="scrollbar">
+                            <span>left</span>
+                            <ul>
+                                <li><a href="#1">1</a></li>
+                                <li><a href="#2">2</a></li>
+                                <li><a href="#3">3</a></li>
+                                <li><a href="#4">4</a></li>
+                                <li><a href="#5">5</a></li>
+                                <li><a href="#6">6</a></li>
+                                <li><a href="#7">7</a></li>
+                                <li><a href="#8">8</a></li>
+                            </ul>
+                            <span>Right</span>
+                        </section>
+                    </div>
+                    <!-- /coluna-->
+                </div>
+                <!-- /row-->
+            </div>
+            <!-- /container-->
 
             <section class="best-sellers">
                 <h1>Best Sellers</h1>
@@ -230,21 +264,6 @@
                     <p>Space Grey</p>
                     <p>De: $39,99 <span>Por: $29.99</span></p>
                 </article>
-            </section>
-
-            <section class="scrollbar">
-                <span>left</span>
-                <ul>
-                    <li><a href="#1">1</a></li>
-                    <li><a href="#2">2</a></li>
-                    <li><a href="#3">3</a></li>
-                    <li><a href="#4">4</a></li>
-                    <li><a href="#5">5</a></li>
-                    <li><a href="#6">6</a></li>
-                    <li><a href="#7">7</a></li>
-                    <li><a href="#8">8</a></li>
-                </ul>
-                <span>Right</span>
             </section>
         </section>
         <!--       Fim do conteudo Principal-->
