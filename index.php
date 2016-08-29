@@ -5,7 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="_assets/_css/style.css">
-
+    <script src="_assets/_js/jquery-3.1.js"></script>
+    <!--    Menu DropDown-->
+    <script>
+        $(document).ready(function(e){
+           $('.sub').click(function(){
+              $(this).toggleClass('tap');
+           });
+        });
+    </script>
+    <!--    Menu DropDown-->
     <title>E-commerce</title>
 </head>
 
@@ -75,11 +84,20 @@
                                 <ul class="dropdown">
                                     <li><a href="#1">Top Sales</a></li>
                                     <li><a href="#2">Brand Focus</a></li>
-                                    <li><a href="#3">Hi-Tech</a></li>
+                                    <li class="sub"><a href="#3">Hi-Tech <span class="sub-arrow"></span></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="1#">Cell Phones</a></li>
+                                            <li><a href="2#">Cameras</a></li>
+                                            <li><a href="3#">Computers</a></li>
+                                            <li><a href="4#">Tv Audio</a></li>
+                                            <li><a href="5#">Video Games</a></li>
+                                        </ul>
+                                    </li>
                                     <li><a href="#4">Home</a></li>
                                     <li><a href="#5">Sale</a></li>
                                 </ul>
                             </div>
+
                             <div class="available-filter">
                                 <p>Available</p>
                                 <input type="radio" name="availabe"> In Storage

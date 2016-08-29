@@ -216,12 +216,55 @@ body{
     color:#fff;
 }
 
+/*-----------------------------------------------------------------
+    Barra Lateral  -- Menu DropDown
+-----------------------------------------------------------------*/
+
 .aside-bar{
-    background:blue;
+    background: #fff;
     border:solid 1px #f4f4f4;
-    border-radius:10px 10px;
+    border-radius:10px;
     margin:10px 0;
 }
+.dropdown li{
+    border-bottom: solid 1px #f4f4f4;
+}
+.dropdown a{
+    text-decoration: none;
+    font-family:'Roboto',sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 1.2em;
+    color:#393939;
+    display: block;
+    padding:10px 20px;
+}
+.dropdown .sub-arrow:after{
+    content:'\203A';
+    float: right;
+    transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+       -moz-transform:rotate(90deg);
+}
+.dropdown .sub-menu{
+    display: none;
+}
+.sub-menu a{
+    padding:10px 30px;
+    color:#393939;
+}
+.dropdown li.tap ul {
+    display: block;
+    background: #f4f4f4;
+}
+.dropdown li.tap .sub-arrow:after{
+   content:'\2039';
+}
+.dropdown a:hover{
+    background:#234cfc;
+    color:#fff;
+}
+
 .product img{
     width: 90%;
 }
