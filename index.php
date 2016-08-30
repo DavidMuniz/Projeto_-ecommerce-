@@ -219,7 +219,7 @@
                 <div class="row">
                     <div class="col">
                         <section class="scrollbar">
-                            <a href="index.php" class="left"><span class="fontawesome-angle-left"></span></a>
+                            <a href="javascript:window.history.go(-1)" class="left"><span class="fontawesome-angle-left"></span></a>
                             <ul>
                                 <li><a href="#1">1</a></li>
                                 <li><a href="#2">2</a></li>
@@ -230,80 +230,114 @@
                                 <li><a href="#7">7</a></li>
                                 <li><a href="#8">8</a></li>
                             </ul>
-                            <a href="index.php" class="right"><span class="fontawesome-angle-right"></span></a>
+                            <a href="javascript:window.history.go(1)" class="right"><span class="fontawesome-angle-right"></span></a>
                         </section>
                     </div>
                     <!-- /coluna-->
                 </div>
                 <!-- /row-->
+                <div class="row">
+                    <div class="col">
+                        <section class="best-sellers">
+                            <header class="header-best-sellers">
+                                <h1>Best Sellers</h1>
+                            </header>
+                            <div class="col col-4">
+                                <article class="product-bs">
+                                    <img src="_assets/_img/_products/beanie.png" alt="[Beanie]" title="Beanie">
+                                    <h1>Beanie</h1>
+                                    <p>Green</p>
+                                    <p><span>De: $39,99</span>Por: $29.99</p>
+                                </article>
+                            </div>
+
+                            <div class="col col-4">
+                                <article class="product-bs">
+                                    <img src="_assets/_img/_products/t-shirt.png" alt="[T-Shirt]" title="T-Shirt">
+                                    <h1>T-shirt With a Print</h1>
+                                    <p>Dark Blue</p>
+                                    <p><span>De: $29,99</span>Por: $19.99</p>
+                                </article>
+                            </div>
+
+                            <div class="col col-4">
+                                <article class="product-bs">
+                                    <img src="_assets/_img/_products/hooded-jacket.png" alt="[Hooded Jacket]" title="Hooded Jacket">
+                                    <h1>Pile-Lined Hooded Jacket</h1>
+                                    <p>Dark Blue</p>
+                                    <p><span>De: $49,99</span>Por: $39.99</p>
+                                </article>
+                            </div>
+
+                            <div class="col col-4">
+                                <article class="product-bs">
+                                    <img src="_assets/_img/_products/both.png" alt="[Boot]" title="Boot">
+                                    <h1>Trainers</h1>
+                                    <p>Space Grey</p>
+                                    <p><span>De: $39,99</span>Por: $29.99</p>
+                                </article>
+                            </div>
+                        </section>
+                    </div>
+                    <!--/col-->
+                </div>
+                <!--/row-->
             </div>
             <!-- /container-->
-
-            <section class="best-sellers">
-                <h1>Best Sellers</h1>
-                <article class="product-bs">
-                    <img src="_assets/_img/_products/beanie.png" alt="[Beanie]" title="Beanie">
-                    <h1>Beanie</h1>
-                    <p>Green</p>
-                    <p>De: $39,99 <span>Por: $29.99</span></p>
-                </article>
-                <article class="product-bs">
-                    <img src="_assets/_img/_products/t-shirt.png" alt="[T-Shirt]" title="T-Shirt">
-                    <h1>T-shirt With a Print</h1>
-                    <p>Dark Blue</p>
-                    <p>De: $29,99 <span>Por: $19.99</span></p>
-                </article>
-                <article class="product-bs">
-                    <img src="_assets/_img/_products/hooded-jacket.png" alt="[Hooded Jacket]" title="Hooded Jacket">
-                    <h1>Pile-Lined Hooded Jacket</h1>
-                    <p>Dark Blue</p>
-                    <p>De: $49,99 <span>Por: $39.99</span></p>
-                </article>
-                <article class="product-bs">
-                    <img src="_assets/_img/_products/both.png" alt="[Boot]" title="Boot">
-                    <h1>Trainers</h1>
-                    <p>Space Grey</p>
-                    <p>De: $39,99 <span>Por: $29.99</span></p>
-                </article>
-            </section>
         </section>
         <!--       Fim do conteudo Principal-->
-        <footer class="footer-main">
-            <header class="header-footer">
-                <h1>What Our Customers Have to Stay</h1>
-                <p>Couple of Words About This Stories Section</p>
-            </header>
-            <section class="comments">
-                <article>
-                    <h1>Cella Fields</h1>
-                    <p>UX Expert</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quia repudiandae libero reprehenderit voluptate perferendis asperiores. Soluta quas similique et, dignissimos dolorum modi expedita, eum repellat dicta maiores molestiae nobis!</p>
-                </article>
-                <article>
-                    <h1>Alexander Lee</h1>
-                    <p>Fouder</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quia repudiandae libero reprehenderit voluptate perferendis asperiores. Soluta quas similique et, dignissimos dolorum modi expedita, eum repellat dicta maiores molestiae nobis!</p>
-                </article>
-                <article>
-                    <h1>Lenora Sandoval</h1>
-                    <p>Product Manager</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quia repudiandae libero reprehenderit voluptate perferendis asperiores. Soluta quas similique et, dignissimos dolorum modi expedita, eum repellat dicta maiores molestiae nobis!</p>
-                </article>
-            </section>
-            <footer class="bottom-footer"></footer>
-            <h1 class="logo">Portland</h1>
-            <nav class="nav-footer-menu">
-                <ul>
-                    <li><a href="#1">Home</a></li>
-                    <li><a href="#2">Shop</a></li>
-                    <li><a href="#3">About Us</a></li>
-                    <li><a href="#4">Contacts</a></li>
-                </ul>
-            </nav>
 
-        </footer>
-        <!--       Fim do Rodapé-->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <footer class="footer-main">
+                        <header class="header-footer">
+                            <h1>O que nossos especialistas tem a dizer</h1>
+                            <p>Conheça quem esta por traz da Portland</p>
+                        </header>
 
+                        <section class="comments">
+                           <div class="col col-3">
+                            <article>
+                                <h1>Bruno Queijinho</h1>
+                                <p>UX Design Expert</p>
+                                <p>Produzido com um scantling de grande eloqüência e elegancia, me espelhando em grandes Designer's, busquei um layout simples que facilitaria a experiencia do usuario</p>
+                            </article>
+                            </div>
+                            <div class="col col-3">
+                            <article>
+                                <h1>Thiagão</h1>
+                                <p>Fundador CEO</p>
+                                <p>Looking cautiously round, to ascertain that they were not overheard, the two hags cowered nearer to the fire, and chuckled heartily.</p>
+                            </article>
+                            </div>
+                            <div class="col col-3">
+                            <article>
+                                <h1>Lucas Jeronimo</h1>
+                                <p>Gerente de Produção</p>
+                                <p>This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that before!' she said.!</p>
+                            </article>
+                            </div>
+                        </section>
+                        <footer class="bottom-footer">
+                        <h1 class="logo">Portland</h1>
+                        <nav class="nav-footer-menu">
+                            <ul>
+                                <li><a href="#1">Home</a></li>
+                                <li><a href="#2">Shop</a></li>
+                                <li><a href="#3">About Us</a></li>
+                                <li><a href="#4">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </footer>
+                    </footer>
+                    <!--Fim do Rodapé-->
+                </div>
+                <!--/coluna-->
+            </div>
+            <!--/linha-->
+        </div>
+        <!--/container-->
     </main>
 
 

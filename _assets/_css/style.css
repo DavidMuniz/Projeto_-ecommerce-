@@ -1,10 +1,10 @@
 /*---------------
 Fonte Logo(Satisfy)
 Fonte Não Serifada(Roboto)
-Fonte Serifada(PT-Serif)
+Fonte Serifada(Poly)
 -----------------*/
 
-@import 'https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Satisfy';
+@import 'https://fonts.googleapis.com/css?family=Poly|Roboto|Satisfy';
 
 /*------------------------------------------
         Reset Basico
@@ -439,3 +439,91 @@ body{
 /*----------------------------------------------------------
         Mais Vendidos
 -------------------------------------------------------------*/
+.product-bs img{
+    max-width: 100%;
+}
+.best-sellers{
+    border:solid 1px #f4f4f4;
+    border-radius:10px 10px;
+    margin:10px 0;
+    text-align:center;
+    background: #fff;
+}
+.header-best-sellers{
+    font-family: 'Roboto',sans-serif;
+    font-size:1.1em;
+    line-height: 3.9em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border-bottom: solid 1px  #f4f4f4;
+}
+.product-bs h1,
+.product-bs p:last-of-type{
+    color:#393939;
+    font-family:'Roboto',sans-serif;
+    font-weight: bold;
+    font-size:1.3em;
+    line-height: 1.9em;
+}
+.product-bs p:first-of-type{
+    color:#c4c3c3;
+    font-family:'Roboto',sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.9em;
+}
+.product-bs span{
+    padding: 0 15px;
+    color:#c4c3c3;
+    font-weight: normal;
+    text-decoration:line-through;
+}
+/*-------------------------------------------------------------
+            Rodapé
+----------------------------------------------------------------*/
+.comments .col-3{
+    padding: 0 8.0em;
+}
+.header-footer {
+    margin:10px 0;
+    text-align:center;
+    background: #fff;
+}
+
+.header-footer h1{
+    color:#393939;
+    font-family: 'Roboto',sans-serif;
+    font-size: 2.8em;
+    line-height: 2.5em;
+    font-weight: bolder;
+}
+.header-footer p{
+    color:#dbdbdb;
+    font-family: 'Poly', serif;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.comments h1{
+    color:#393939;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.1em;
+    line-height: 2.5em;
+}
+.comments p:first-of-type{
+    color:#dbdbdb;
+    font-family: 'Poly', serif;
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 2.8em;
+}
+.comments p:last-of-type{
+    color:#393939;
+    font-family: 'Poly', serif;
+    font-size: 1.4em;
+}
+
+
+
+
