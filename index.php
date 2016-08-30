@@ -42,7 +42,7 @@
                     </div>
                     <div class="col col-3">
                         <div class="nav-assets">
-                            <span>Cart</span>
+                            <span class="entypo-basket"><p>Cart</p></span>
                             <a href="#0">Sign in</a>
                         </div>
                     </div>
@@ -287,49 +287,68 @@
         </section>
         <!--       Fim do conteudo Principal-->
 
-        <div class="container">
+        <div class="">
             <div class="row">
                 <div class="col">
                     <footer class="footer-main">
                         <header class="header-footer">
-                            <h1>O que nossos especialistas tem a dizer</h1>
-                            <p>Conheça quem esta por traz da Portland</p>
+                            <h1>Veja o que nossos especialistas tem a dizer</h1>
+                            <p class="taglib">Conheça quem esta por traz da Portland</p>
                         </header>
 
                         <section class="comments">
-                           <div class="col col-3">
-                            <article>
-                                <h1>Bruno Queijinho</h1>
-                                <p>UX Design Expert</p>
-                                <p>Produzido com um scantling de grande eloqüência e elegancia, me espelhando em grandes Designer's, busquei um layout simples que facilitaria a experiencia do usuario</p>
-                            </article>
+                            <div class="col col-3">
+                                <article>
+                                    <img src="_assets/_img/pic.png" alt="" title="">
+                                    <h1>Bruno Queijinho</h1>
+                                    <p>UX Design Expert</p>
+                                    <p>Produzido com um scantling de grande eloqüência e elegancia, me espelhando em grandes Designer's, busquei um layout simples que facilitaria a experiencia do usuario</p>
+                                </article>
                             </div>
                             <div class="col col-3">
-                            <article>
-                                <h1>Thiagão</h1>
-                                <p>Fundador CEO</p>
-                                <p>Looking cautiously round, to ascertain that they were not overheard, the two hags cowered nearer to the fire, and chuckled heartily.</p>
-                            </article>
+                                <article>
+                                    <img src="_assets/_img/pic.png" alt="" title="">
+                                    <h1>Thiagão</h1>
+                                    <p>Fundador CEO</p>
+                                    <p>Somos um dos maiores nomes do E-commerce em nivel mundial, vendendo o que a de melhor na area da tecnologia, roupas e calçados</p>
+                                </article>
                             </div>
                             <div class="col col-3">
-                            <article>
-                                <h1>Lucas Jeronimo</h1>
-                                <p>Gerente de Produção</p>
-                                <p>This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that before!' she said.!</p>
-                            </article>
+                                <article>
+                                    <img src="_assets/_img/pic.png" alt="" title="">
+                                    <h1>Lucas Jeronimo</h1>
+                                    <p>Gerente de Produção</p>
+                                    <p>Eu amo a Stella <span class="fontawesome-heart" style="color:red"></span></p>
+                                </article>
                             </div>
                         </section>
                         <footer class="bottom-footer">
-                        <h1 class="logo">Portland</h1>
-                        <nav class="nav-footer-menu">
-                            <ul>
-                                <li><a href="#1">Home</a></li>
-                                <li><a href="#2">Shop</a></li>
-                                <li><a href="#3">About Us</a></li>
-                                <li><a href="#4">Contacts</a></li>
-                            </ul>
-                        </nav>
-                    </footer>
+                           <div class="block">
+                            <div class="col col-3">
+                                <h1 class="logo">Portland</h1>
+                            </div>
+                            <div class="col col-3">
+                                <nav class="nav-footer-menu">
+                                    <ul>
+                                        <li><a href="#1">Home</a></li>
+                                        <li><a href="#2">Shop</a></li>
+                                        <li><a href="#3">About Us</a></li>
+                                        <li><a href="#4">Contacts</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col col-3">
+                                <section class="social">
+                                    <a href="https://github.com/DavidMuniz/Projeto_e-commerce" title="GitHub deste projeto" target="_blank"><span class="fontawesome-github-sign"></span></a>
+                                    <a href="" title="Conheça nossa paragina no Facebook"><span class="fontawesome-facebook"></span></a>
+                                    <a href="" title="Conheça nosso Twitter"><span class="fontawesome-twitter"></span></a>
+                                </section>
+                            </div>
+                            </div>
+                            <div class="terms">
+                                <p>&copy 2016, All Terms Reserved</p>
+                            </div>
+                        </footer>
                     </footer>
                     <!--Fim do Rodapé-->
                 </div>

@@ -1,4 +1,4 @@
-- Finalizar Layout Principal
++ Finalizar Layout Principal
 
 # Lista
 - Formulario de Cadastro

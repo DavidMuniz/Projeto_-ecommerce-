@@ -32,8 +32,13 @@ body{
   font-family: 'font-awesome', sans-serif;
 }
 
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
 /*-------------------------------------------
-        Grid Responsivo vp 1360px
+        Grid Responsivo vp 1170px
 ---------------------------------------------*/
 .container  {
     width: 100%;
@@ -138,8 +143,14 @@ body{
 .nav-assets{
     margin:3.0em 0;
 }
+.nav-assets p{
+    display: inline;
+}
+
 .nav-assets span{
     margin:0px 40px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.2em
 }
 .nav-assets a{
     font-family: 'Roboto',sans-serif;
@@ -445,7 +456,7 @@ body{
 .best-sellers{
     border:solid 1px #f4f4f4;
     border-radius:10px 10px;
-    margin:10px 0;
+    margin:2.0em auto;
     text-align:center;
     background: #fff;
 }
@@ -482,11 +493,13 @@ body{
 /*-------------------------------------------------------------
             Rodapé
 ----------------------------------------------------------------*/
+
 .comments .col-3{
-    padding: 0 8.0em;
+    padding: 0 9.0em;
 }
+
 .header-footer {
-    margin:10px 0;
+    padding:2.0em 0;
     text-align:center;
     background: #fff;
 }
@@ -495,14 +508,15 @@ body{
     color:#393939;
     font-family: 'Roboto',sans-serif;
     font-size: 2.8em;
-    line-height: 2.5em;
+    line-height: em;
     font-weight: bolder;
 }
-.header-footer p{
+.header-footer .taglib{
     color:#dbdbdb;
     font-family: 'Poly', serif;
     font-size: 1.5em;
     font-style: italic;
+    line-height: 2.5em
 }
 
 .comments h1{
@@ -516,14 +530,65 @@ body{
     font-family: 'Poly', serif;
     font-size: 1.2em;
     font-style: italic;
-    line-height: 2.8em;
+    line-height: 1.8em;
 }
 .comments p:last-of-type{
     color:#393939;
     font-family: 'Poly', serif;
     font-size: 1.4em;
+    padding: 0.5em;
 }
 
-
-
+.comments img{
+    max-width: 18%;
+    float: left;
+    border: solid 1px #fff;
+    border-radius: 100%;
+}
+.bottom-footer{
+   background:#393939;
+    padding: 0 9.0em;
+    text-align: center;
+    margin-top:2.0em;
+}
+.bottom-footer .logo{
+    color:#fff;
+}
+.nav-footer-menu,.social{
+     margin:3.0em 0;
+}
+.nav-footer-menu li{
+    display: inline-block;
+}
+.nav-footer-menu a{
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-size: 1.2em;
+    color:#FFF;
+    padding:0 5px;
+    text-transform: uppercase;
+}
+.nav-footer-menu a:hover{
+    color:#234cfc;
+}
+.block{
+    padding: 3.0em 0;
+    border-bottom:solid 1px #4e4e4e;
+}
+.social a{
+    text-decoration: none;
+}
+.social span{
+    font-size: 1.9em;
+    padding:0.5em;
+    color:#fff;
+    cursor: pointer;
+}
+.terms{
+    padding:3.0em 0;
+    text-align: center;
+    font-family:'Roboto',serif;
+    font-size: 1.2em;
+    color:#585858;
+}
 
