@@ -6,7 +6,6 @@ Fonte Serifada(PT-Serif)
 
 @import 'https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Satisfy';
 
-
 /*------------------------------------------
         Reset Basico
 --------------------------------------------*/
@@ -21,6 +20,16 @@ Fonte Serifada(PT-Serif)
 }
 body{
     font-size: 62.5%;
+}
+
+
+/*-------------------------------------------
+        Icon Fonts
+---------------------------------------------*/
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'font-awesome', sans-serif;
 }
 
 /*-------------------------------------------
@@ -329,6 +338,7 @@ body{
     margin:10px 0;
     text-align:center;
     position: relative;
+    background: #fff;
 }
 .product h1,
 .product p:last-of-type{
@@ -339,7 +349,7 @@ body{
     line-height: 1.9em;
 }
 .product p:first-of-type{
-    color:silver;
+    color:#c4c3c3;
     font-family:'Roboto',sans-serif;
     font-size: 1.1em;
     text-transform: uppercase;
@@ -368,15 +378,64 @@ body{
 -----------------------------------------------------------------*/
 
 .scrollbar {
-     margin:2.0em auto;
+    margin:2.0em auto;
     padding: 2.0em 0;
     text-align: center;
     background: #fff;
     border: 1px solid #fff;
     border-radius: 10px;
+    position: relative;
 }
 
 .scrollbar ul li{
     display: inline-block;
+    padding:0 2.0em;
 }
 
+.scrollbar .left:first-of-type{
+    position: absolute;
+    left:10%;
+    top:7%;
+}
+.scrollbar .right:last-of-type{
+    position: absolute;
+    right:10%;
+    top:7%;
+}
+.scrollbar li a{
+    text-decoration: none;
+    color:#393939;
+    font-size:1.5em;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+    padding: 10px 15px;
+}
+.scrollbar li a:hover{
+    background: #fff;
+    color:#c6c6c6;
+    border: 1px solid #fff;
+    border-radius:100%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+.fontawesome-angle-right,
+.fontawesome-angle-left{
+    font-size: 25px;
+}
+.left,
+.right{
+    text-decoration: none;
+    padding: 10px 20px;
+    color:#393939;
+}
+.left:hover,
+.right:hover{
+    font-size: 25px;
+    background: #fff;
+    color:#c6c6c6;
+    border: 1px solid #fff;
+    border-radius:100%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+/*----------------------------------------------------------
+        Mais Vendidos
+-------------------------------------------------------------*/

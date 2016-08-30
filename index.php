@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="_assets/_css/style.css">
+    <link rel="stylesheet" href="_assets/_css/fonts.css">
     <script src="_assets/_js/jquery-3.1.js"></script>
     <!--    Menu DropDown-->
     <script>
@@ -218,7 +219,7 @@
                 <div class="row">
                     <div class="col">
                         <section class="scrollbar">
-                            <span>left</span>
+                            <a href="index.php" class="left"><span class="fontawesome-angle-left"></span></a>
                             <ul>
                                 <li><a href="#1">1</a></li>
                                 <li><a href="#2">2</a></li>
@@ -229,7 +230,7 @@
                                 <li><a href="#7">7</a></li>
                                 <li><a href="#8">8</a></li>
                             </ul>
-                            <span>Right</span>
+                            <a href="index.php" class="right"><span class="fontawesome-angle-right"></span></a>
                         </section>
                     </div>
                     <!-- /coluna-->
