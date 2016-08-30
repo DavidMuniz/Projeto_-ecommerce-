@@ -540,7 +540,8 @@ body{
 }
 
 .comments img{
-    max-width: 18%;
+    width: 45px;
+    height: 45px;
     float: left;
     border: solid 1px #fff;
     border-radius: 100%;

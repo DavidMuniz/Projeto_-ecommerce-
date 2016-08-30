@@ -299,7 +299,7 @@
                         <section class="comments">
                             <div class="col col-3">
                                 <article>
-                                    <img src="_assets/_img/pic.png" alt="" title="">
+                                    <img src="_assets/_img/queijo.jpg" alt="[Queijo Transão]" title="Queijo Transão">
                                     <h1>Bruno Queijinho</h1>
                                     <p>UX Design Expert</p>
                                     <p>Produzido com um scantling de grande eloqüência e elegancia, me espelhando em grandes Designer's, busquei um layout simples que facilitaria a experiencia do usuario</p>
@@ -307,7 +307,7 @@
                             </div>
                             <div class="col col-3">
                                 <article>
-                                    <img src="_assets/_img/pic.png" alt="" title="">
+                                    <img src="_assets/_img/tiago.jpg" alt="[Tiagão]" title="Tiagão">
                                     <h1>Thiagão</h1>
                                     <p>Fundador CEO</p>
                                     <p>Somos um dos maiores nomes do E-commerce em nivel mundial, vendendo o que a de melhor na area da tecnologia, roupas e calçados</p>
@@ -315,7 +315,7 @@
                             </div>
                             <div class="col col-3">
                                 <article>
-                                    <img src="_assets/_img/pic.png" alt="" title="">
+                                    <img src="_assets/_img/s2.jpg" alt="[Lucas S2 Stella]" title="Lucas S2 Stella">
                                     <h1>Lucas Jeronimo</h1>
                                     <p>Gerente de Produção</p>
                                     <p>Eu amo a Stella <span class="fontawesome-heart" style="color:red"></span></p>
@@ -346,7 +346,7 @@
                             </div>
                             </div>
                             <div class="terms">
-                                <p>&copy 2016, All Terms Reserved</p>
+                                <p>&copy 2016, All Right Reserved</p>
                             </div>
                         </footer>
                     </footer>
