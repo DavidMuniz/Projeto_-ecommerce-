@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!--[if IE]>
+        <link rel="shortcut icon" href="img/#">
+    <![endif]-->
+    <link rel="icon" href="img/#">
+
     <link rel="stylesheet" href="_assets/_css/style.css">
     <link rel="stylesheet" href="_assets/_css/fonts.css">
     <script src="_assets/_js/jquery-3.1.js"></script>
@@ -21,9 +27,9 @@
             });
         });
 
-        $(function(){
-				$( '#cbp-fwslider' ).cbpFWSlider();
-			} );
+        $(function () {
+            $('#cbp-fwslider').cbpFWSlider();
+        });
     </script>
     <!--    Menu DropDown e Slider-->
 
@@ -45,7 +51,7 @@
                                 <li><a href="#0">Home</a></li>
                                 <li><a href="#1">Devices</a></li>
                                 <li><a href="#2">Delivery & Payment</a></li>
-                                <li><a href="#3">Guarantee</a></li>
+                                <li><a href="#3">About You</a></li>
                                 <li><a href="#4">About Us</a></li>
                             </ul>
                         </nav>
@@ -54,7 +60,7 @@
                     <div class="col col-3">
                         <div class="nav-assets">
                             <span class="entypo-basket"><p>Cart</p></span>
-                            <a href="#0">Sign in</a>
+                            <a href="cadastro.php">Cadastro / Login</a>
                         </div>
                     </div>
                     <div class="clear"></div>
@@ -65,17 +71,25 @@
         <!--       Fim do cabeçalho-->
         <section class="interface">
             <div class="banner">
-<!--                <img src="_assets/_img/Banner.png" alt="[Banner]" title="Banner">-->
-
-            <div id="cbp-fwslider" class="slider">
-				<ul>
-					<li><a href="#"><img src="_assets/_img/_slider/teste.jpg" alt="img01"/></a></li>
-					<li><a href="#"><img src="_assets/_img/_slider/2.jpg" alt="img02"/></a></li>
-					<li><a href="#"><img src="_assets/_img/_slider/3.jpg" alt="img03"/></a></li>
-					<li><a href="#"><img src="_assets/_img/_slider/4.jpg" alt="img04"/></a></li>
-					<li><a href="#"><img src="_assets/_img/_slider/5.jpg" alt="img05"/></a></li>
-				</ul>
-			</div>
+                <div id="cbp-fwslider" class="slider">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="_assets/_img/_slider/teste.jpg" alt="img01" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="_assets/_img/_slider/2.jpg" alt="img02" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="_assets/_img/_slider/3.jpg" alt="img03" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="_assets/_img/_slider/4.jpg" alt="img04" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="_assets/_img/_slider/5.jpg" alt="img05" /></a>
+                        </li>
+                    </ul>
+                </div>
 
 
             </div>
@@ -346,27 +360,27 @@
                             </div>
                         </section>
                         <footer class="bottom-footer">
-                           <div class="block">
-                            <div class="col col-3">
-                                <h1 class="logo">Portland</h1>
-                            </div>
-                            <div class="col col-3">
-                                <nav class="nav-footer-menu">
-                                    <ul>
-                                        <li><a href="#1">Home</a></li>
-                                        <li><a href="#2">Shop</a></li>
-                                        <li><a href="#3">About Us</a></li>
-                                        <li><a href="#4">Contacts</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <div class="col col-3">
-                                <section class="social">
-                                    <a href="https://github.com/DavidMuniz/Projeto_e-commerce" title="GitHub deste projeto" target="_blank"><span class="fontawesome-github-sign"></span></a>
-                                    <a href="" title="Conheça nossa paragina no Facebook"><span class="fontawesome-facebook"></span></a>
-                                    <a href="" title="Conheça nosso Twitter"><span class="fontawesome-twitter"></span></a>
-                                </section>
-                            </div>
+                            <div class="block">
+                                <div class="col col-3">
+                                    <h1 class="logo">Portland</h1>
+                                </div>
+                                <div class="col col-3">
+                                    <nav class="nav-footer-menu">
+                                        <ul>
+                                            <li><a href="#1">Home</a></li>
+                                            <li><a href="#2">Shop</a></li>
+                                            <li><a href="#3">About Us</a></li>
+                                            <li><a href="#4">Contacts</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="col col-3">
+                                    <section class="social">
+                                        <a href="https://github.com/DavidMuniz/Projeto_e-commerce" title="GitHub deste projeto" target="_blank"><span class="fontawesome-github-sign"></span></a>
+                                        <a href="" title="Conheça nossa paragina no Facebook"><span class="fontawesome-facebook"></span></a>
+                                        <a href="" title="Conheça nosso Twitter"><span class="fontawesome-twitter"></span></a>
+                                    </section>
+                                </div>
                             </div>
                             <div class="terms">
                                 <p>&copy 2016, All Right Reserved</p>

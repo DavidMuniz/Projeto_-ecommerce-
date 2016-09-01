@@ -14,8 +14,8 @@ Fonte Serifada(Poly)
     padding:0;
     list-style: none;
      -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+        -moz-box-sizing: border-box;
+             box-sizing: border-box;
 
 }
 body{
@@ -613,8 +613,8 @@ body{
 
 .slider ul li {
 	-webkit-transform: translateZ(0);
-	-moz-transform: translateZ(0);
-	transform: translateZ(0);
+	   -moz-transform: translateZ(0);
+	        transform: translateZ(0);
 	float: left;
 	display: block;
 	margin: 0;
@@ -686,8 +686,39 @@ body{
 	background: #2754eb;
 	box-shadow: 0 0 0 2px #2754eb;
 	-webkit-transition: box-shadow 0.2s ease-in-out;
-	-moz-transition: box-shadow 0.2s ease-in-out;
-	transition: box-shadow 0.2s ease-in-out;
+	   -moz-transition: box-shadow 0.2s ease-in-out;
+	        transition: box-shadow 0.2s ease-in-out;
+}
+
+/*----------------------------------------------------------------
+            Cadastro
+-----------------------------------------------------------------*/
+.interface-form{
+    overflow: hidden;
+ }
+.interface-form header{
+    text-align: center;
+}
+.interface-form a{
+    float:left;
+    text-decoration: none;
+    color:#393939;
+}
+.interface-form label{
+    display: block
+}
+.interface-form fieldset {
+    border: none;
+}
+.interface-form legend{
+    border-bottom: 1px solid red;
+    width: 100%;
+}
+form.login{
+    padding-left: 50%;
+}
+form.new-account{
+    padding-right: 50%;
 }
 
 
