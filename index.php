@@ -7,15 +7,26 @@
     <link rel="stylesheet" href="_assets/_css/style.css">
     <link rel="stylesheet" href="_assets/_css/fonts.css">
     <script src="_assets/_js/jquery-3.1.js"></script>
-    <!--    Menu DropDown-->
+
+    <!--Slider-->
+    <script src="_assets/_js/modernizr.custom.js"></script>
+    <script src="_assets/_js/jquery.cbpFWSlider.min.js"></script>
+    <!--Slider-->
+
+    <!--    Menu DropDown e Slider-->
     <script>
         $(document).ready(function (e) {
             $('.sub').click(function () {
                 $(this).toggleClass('tap');
             });
         });
+
+        $(function(){
+				$( '#cbp-fwslider' ).cbpFWSlider();
+			} );
     </script>
-    <!--    Menu DropDown-->
+    <!--    Menu DropDown e Slider-->
+
     <title>E-commerce</title>
 </head>
 
@@ -54,7 +65,19 @@
         <!--       Fim do cabeçalho-->
         <section class="interface">
             <div class="banner">
-                <img src="_assets/_img/Banner.png" alt="[Banner]" title="Banner">
+<!--                <img src="_assets/_img/Banner.png" alt="[Banner]" title="Banner">-->
+
+            <div id="cbp-fwslider" class="slider">
+				<ul>
+					<li><a href="#"><img src="_assets/_img/_slider/teste.jpg" alt="img01"/></a></li>
+					<li><a href="#"><img src="_assets/_img/_slider/2.jpg" alt="img02"/></a></li>
+					<li><a href="#"><img src="_assets/_img/_slider/3.jpg" alt="img03"/></a></li>
+					<li><a href="#"><img src="_assets/_img/_slider/4.jpg" alt="img04"/></a></li>
+					<li><a href="#"><img src="_assets/_img/_slider/5.jpg" alt="img05"/></a></li>
+				</ul>
+			</div>
+
+
             </div>
             <div class="container">
                 <div class="row">

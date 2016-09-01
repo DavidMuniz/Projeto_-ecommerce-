@@ -4,6 +4,6 @@
 - Formulario de Cadastro
 - Formulario de Login
 - Responsivar
-- Slider
++ Slider
 - Atualizar Markup
 
