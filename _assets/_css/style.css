@@ -327,7 +327,7 @@ body{
     font-weight: bold;
     letter-spacing: 0.1em;
     font-size: 1.0em;
-    color:c;
+    color:#393939;
     text-decoration: none;
 }
 .available-filter a:hover{
@@ -708,12 +708,18 @@ body{
     text-decoration: none;
     color:#393939;
     font-family: 'Roboto',sans-serif;
-}
-.interface-form label{
-    display: block;
+    font-size: 1.2em;
 }
 .interface-form fieldset {
     border: none;
+}
+.interface-form .login{
+    padding-left: 50%;
+}
+.interface-form .new-account{
+    padding-right: 50%;
+    padding-left: 1.0em;
+    border-left: 1px solid #d1d1d1;
 }
 .interface-form legend{
     border-bottom: 1px solid #d1d1d1;
@@ -724,10 +730,17 @@ body{
     text-transform: uppercase;
     font-weight: bold;
 }
-.new-account p:first-of-type{
+.new-account p{
     font-family: 'Roboto',sans-serif;
     font-size: 1.6em;
     font-weight: bold;
+}
+.new-account a{
+    display: block;
+    line-height: 2.5em;
+    font-family: 'Roboto',sans-serif;
+    text-decoration: none;
+    color: #393939;
 }
 .interface-form p{
     font-family: 'Roboto',sans-serif;
@@ -739,20 +752,21 @@ body{
     font-size:1.2em;
     font-weight: bold;
     line-height: 2.1em;
+    display: block;
 }
-.interface-form .login{
-    padding-left: 50%;
-}
-.interface-form .new-account{
-    padding-right: 50%;
+.interface-form input[type="radio"],
+.interface-form label[for*="sexo"]{
+    display: inline;
+    margin-right: 0.5em;
 }
 .interface-form input{
     padding: 0.5em 0;
+    margin-bottom: 1.0em;
     border: 1px solid #d1d1d1;
     border-radius: 3px 3px;
+    display: block;
 }
 .interface-form input[type="submit"]{
-    display: block;
     margin-top:1.5em;
     padding:0.5em 2.2em;
     background:#2754eb;

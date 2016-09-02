@@ -69,7 +69,7 @@
                 <div class="row">
                     <div class="col">
                         <header class="header-form">
-                            <a href="./">Voltar para a Loja</a>
+                            <a href="./"><span class="entypo-reply"></span>Voltar para a Loja</a>
                             <h1>Identificação</h1>
                         </header>
                         <div class="col col-2">
@@ -97,17 +97,20 @@
 -->
                                     <p>Seus Dados Pessoais:</p>
                                     <label for="nome">Nome <span style="color:#ff0000">*</span>:</label>
-                                    <input type="text" class="nome" id="nome" name="nome" required/>
+                                    <input type="text" class="nome" id="nome" name="nome" required />
                                     <label for="sobrenome">Sobrenome <span style="color:#ff0000">*</span>:</label>
                                     <input type="text" class="sobrenome" id="sobrenome" name="sobrenome" required/>
                                     <label for="cpf">CPF <span style="color:#ff0000">*</span>:</label>
                                     <input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite um CPF no formato: xxx.xxx.xxx-xx" required/>
                                     <label for="data">Data de nascimento <span style="color:#ff0000">*</span>:</label>
                                     <input type="date" class="data" id="data" name="data" required/>
-                                    <input type="radio" class="radio" id="radio" name="sexo"/>
-                                    <label for="radio">Masculino</label>
-                                    <input type="radio" class="radio" id="radio" name="sexo"/>
-                                    <label for="radio">Feminino</label>
+
+                                    <input type="radio" class="radio" id="sexoM" name="sexo"/>
+                                        <label for="sexoM">Masculino</label>
+
+                                    <input type="radio" class="radio" id="sexoF" name="sexo"/>
+                                        <label for="sexoF">Feminino</label>
+
                                     <label for="nome">CEP <span style="color:#ff0000">*</span>:</label>
                                     <input type="text" name="cep" id="cep" class="cep" required pattern= "[0-9]{5}-[0-9]{3}"/>
                                     <a href="http://www.buscacep.correios.com.br/sistemas/buscacep/buscaCepEndereco.cfm" target="_blank">Não sei o CEP</a>

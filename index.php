@@ -142,7 +142,7 @@
 
                                         <legend>Available</legend>
                                         <input type="radio" name="available" id="storage">
-                                        <label for="" id="storage">In Storage</label>
+                                        <label for="storage">In Storage</label>
                                         <br>
                                         <input type="radio" name="available" id="storage">
                                         <label for="storage">In Online-Shop</label>
