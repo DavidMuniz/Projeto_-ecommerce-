@@ -693,32 +693,69 @@ body{
 /*----------------------------------------------------------------
             Cadastro
 -----------------------------------------------------------------*/
-.interface-form{
-    overflow: hidden;
- }
-.interface-form header{
+
+.header-form h1{
     text-align: center;
+    font-family:'Roboto',sans-serif;
+    font-size:2.9em;
+    line-height: 2.9em;
+    overflow: hidden;
+    text-transform: uppercase;
+    color:#1c1e23;
 }
-.interface-form a{
+.header-form a{
     float:left;
     text-decoration: none;
     color:#393939;
+    font-family: 'Roboto',sans-serif;
 }
 .interface-form label{
-    display: block
+    display: block;
 }
 .interface-form fieldset {
     border: none;
 }
 .interface-form legend{
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #d1d1d1;
     width: 100%;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.6em;
+    line-height: 2.6em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
-form.login{
+.new-account p:first-of-type{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+.interface-form p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.2em;
+    padding: 1.9em 0;
+}
+.interface-form label{
+    font-family: 'Roboto',sans-serif;
+    font-size:1.2em;
+    font-weight: bold;
+    line-height: 2.1em;
+}
+.interface-form .login{
     padding-left: 50%;
 }
-form.new-account{
+.interface-form .new-account{
     padding-right: 50%;
 }
-
+.interface-form input{
+    padding: 0.5em 0;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px 3px;
+}
+.interface-form input[type="submit"]{
+    display: block;
+    margin-top:1.5em;
+    padding:0.5em 2.2em;
+    background:#2754eb;
+    color:#fff;
+}
 

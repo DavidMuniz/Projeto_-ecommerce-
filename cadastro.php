@@ -68,13 +68,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <header class="header-Form">
+                        <header class="header-form">
                             <a href="./">Voltar para a Loja</a>
                             <h1>Identificação</h1>
                         </header>
                         <div class="col col-2">
-                            <form action="" method="" name="" class="login">
-                                <fieldset>
+                            <form action="" method="" name="">
+                                <fieldset class="login">
                                     <legend>Já Sou Cliente Portland</legend>
                                     <p>Para acessar sua conta, por favor, preencha os campos abaixo:</p>
                                     <label for="email">Informe seu Email:</label>
@@ -86,8 +86,8 @@
                             </form>
                         </div>
                         <div class="col col-2">
-                            <form action="" method="" name="" class="new-account" onsubmit="return valida()">
-                                <fieldset>
+                            <form action="" method="" name="" onsubmit="return valida()">
+                                <fieldset class="new-account">
                                     <legend>Quero ser Cliente Portland</legend>
                                     <!--
                                     <input type="radio" class="radio" id="radio" name="pessoa"/>

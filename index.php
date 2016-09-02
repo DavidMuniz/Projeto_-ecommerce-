@@ -74,7 +74,7 @@
                 <div id="cbp-fwslider" class="slider">
                     <ul>
                         <li>
-                            <a href="#"><img src="_assets/_img/_slider/teste.jpg" alt="img01" /></a>
+                            <a href="#"><img src="_assets/_img/_slider/1.jpg" alt="img01" /></a>
                         </li>
                         <li>
                             <a href="#"><img src="_assets/_img/_slider/2.jpg" alt="img02" /></a>
