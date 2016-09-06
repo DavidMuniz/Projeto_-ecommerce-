@@ -1,8 +1,8 @@
 + Finalizar Layout Principal
 
 # Lista
-- Formulario de Cadastro
-- Formulario de Login
++ Formulario de Cadastro
++ Formulario de Login
 - Responsivar
 + Slider
 - Atualizar Markup

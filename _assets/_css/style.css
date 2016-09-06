@@ -16,7 +16,6 @@ Fonte Serifada(Poly)
      -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
              box-sizing: border-box;
-
 }
 body{
     font-size: 62.5%;
@@ -373,11 +372,15 @@ body{
 	color:#FFF;
 	text-shadow: 1px 1px 1px #000000;
 	background-color: rgba(0,0,0,0.3);
-	font-size:1.9em;
+	font-size:1.5em;
+    font-family: 'Roboto',sans-serif;
     position: absolute;
-    padding:89px 80px;
+    padding:80px;
+    height: 75%;
     top:0;
-    left:11px;
+    left:0;
+    right:0;
+    border-radius: 10px 10px 0 0;
     cursor:pointer;
 }
 .product span:hover {
@@ -453,6 +456,9 @@ body{
 .product-bs img{
     max-width: 100%;
 }
+.product-bs{
+    position: relative;
+}
 .best-sellers{
     border:solid 1px #f4f4f4;
     border-radius:10px 10px;
@@ -469,7 +475,7 @@ body{
     border-bottom: solid 1px  #f4f4f4;
 }
 .product-bs h1,
-.product-bs p:last-of-type{
+.product-bs p:nth-of-type(2){
     color:#393939;
     font-family:'Roboto',sans-serif;
     font-weight: bold;
@@ -490,12 +496,34 @@ body{
     font-weight: normal;
     text-decoration:line-through;
 }
+.product-bs .hover{
+    opacity: 0;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,0.3);
+	font-size:1.5em;
+    font-family: 'Roboto',sans-serif;
+    color: #fff;
+    position: absolute;
+    padding:80px;
+    height: 75%;
+    top:0;
+    left:0;
+    right:0;
+    cursor:pointer;
+}
+.product-bs .hover:hover {
+    opacity: 1;
+}
+
+
+
 /*-------------------------------------------------------------
             Rodapé
 ----------------------------------------------------------------*/
 
 .comments .col-3{
     padding: 0 9.0em;
+    display: inline-block;
 }
 
 .header-footer {

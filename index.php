@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
+    <title>E-commerce</title>
     <!--[if IE]>
         <link rel="shortcut icon" href="img/#">
     <![endif]-->
@@ -26,14 +26,11 @@
                 $(this).toggleClass('tap');
             });
         });
-
         $(function () {
             $('#cbp-fwslider').cbpFWSlider();
         });
     </script>
     <!--    Menu DropDown e Slider-->
-
-    <title>E-commerce</title>
 </head>
 
 <body>
@@ -97,13 +94,13 @@
                 <div class="row">
                     <div class="col">
                         <div class="filter-bar">
-                            <h1>Sort By:</h1>
+                            <h1>Buscar por:</h1>
                             <form action="">
-                                <label for="keywords">KeyWords</label>
+                                <label for="keywords">Palavra Chave</label>
                                 <input type="search" id="keywords" placeholder="Tablet, Phones ...">
-                                <label for="price">Price</label>
+                                <label for="price">Preço</label>
                                 <input type="number" id="price" min="0" step="100.0" placeholder="R$">
-                                <input type="submit" value="Search !">
+                                <input type="submit" value="Buscar !">
                             </form>
                             <div class="clear"></div>
                         </div>
@@ -120,19 +117,19 @@
                         <aside class="aside-bar">
                             <div class="aside-dropdown">
                                 <ul class="dropdown">
-                                    <li><a href="#1">Top Sales</a></li>
-                                    <li><a href="#2">Brand Focus</a></li>
-                                    <li class="sub"><a href="#3">Hi-Tech <span class="sub-arrow"></span></a>
+                                    <li><a href="#1">Mais Vendidos</a></li>
+                                    <li><a href="#2">Relogios</a></li>
+                                    <li class="sub"><a href="#3">Eletronicos<span class="sub-arrow"></span></a>
                                         <ul class="sub-menu">
-                                            <li><a href="1#">Cell Phones</a></li>
+                                            <li><a href="1#">Smartphones</a></li>
                                             <li><a href="2#">Cameras</a></li>
-                                            <li><a href="3#">Computers</a></li>
-                                            <li><a href="4#">Tv Audio</a></li>
+                                            <li><a href="3#">Computadores</a></li>
+                                            <li><a href="4#">Smart Tv</a></li>
                                             <li><a href="5#">Video Games</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#4">Home</a></li>
-                                    <li><a href="#5">Sale</a></li>
+                                    <li><a href="#4">Utensilios para Casa</a></li>
+                                    <li><a href="#5">Roupas e Acessorios</a></li>
                                 </ul>
                             </div>
 
@@ -140,17 +137,17 @@
                                 <form action="">
                                     <fieldset class="available">
 
-                                        <legend>Available</legend>
+                                        <legend>Disponibilidade</legend>
                                         <input type="radio" name="available" id="storage">
-                                        <label for="storage">In Storage</label>
+                                        <label for="storage">Em Estoque</label>
                                         <br>
                                         <input type="radio" name="available" id="storage">
-                                        <label for="storage">In Online-Shop</label>
+                                        <label for="storage">Apenas na loja Virtual</label>
 
                                     </fieldset>
                                     <fieldset class="brands">
 
-                                        <legend>Brands</legend>
+                                        <legend>Marcas</legend>
                                         <input type="checkbox" id="brands">
                                         <label for="brands">Apple</label>
                                         <br>
@@ -163,7 +160,7 @@
                                         <input type="checkbox" id="brands">
                                         <label for="brands">Nest</label>
                                         <br>
-                                        <a href="#0">Show All</a>
+                                        <a href="#0">Mostrar Tudo</a>
 
                                     </fieldset>
                                 </form>
@@ -178,23 +175,23 @@
                                 <article class="product">
                                     <img src="_assets/_img/_products/Photo.png" alt="[Apple Tv ]" title="Apple Tv ">
                                     <h1>Apple TV 32GB</h1>
-                                    <p>Black</p>
-                                    <p>$49,99</p>
-                                    <span>Teste</span>
+                                    <p>Preto</p>
+                                    <p>R$49,99</p>
+                                    <span>Confira !</span>
                                 </article>
                                 <article class="product">
                                     <img src="_assets/_img/_products/peeble-time.png" alt="[Peeble Time !]" title="Peeble Time">
                                     <h1>Pebble Time</h1>
-                                    <p>Red</p>
-                                    <p>$29,99</p>
-                                    <span>Teste</span>
+                                    <p>Vermelho</p>
+                                    <p>R$29,99</p>
+                                    <span>Confira !</span>
                                 </article>
                                 <article class="product">
                                     <img src="_assets/_img/_products/zendure.png" alt="[Zendure]" title="Zendure">
                                     <h1>Zendure 4-Port USB</h1>
-                                    <p>White</p>
-                                    <p>$49,99</p>
-                                    <span>Teste</span>
+                                    <p>Branco</p>
+                                    <p>R$49,99</p>
+                                    <span>Confira !</span>
                                 </article>
                             </div>
 
@@ -202,23 +199,23 @@
                                 <article class="product">
                                     <img src="_assets/_img/_products/zendure.png" alt="[Zendure]" title="Zendure">
                                     <h1>Zendure 4-Port USB</h1>
-                                    <p>White</p>
-                                    <p>$49,99</p>
-                                    <span>Teste</span>
+                                    <p>Branco</p>
+                                    <p>R$49,99</p>
+                                    <span>Confira !</span>
                                 </article>
                                 <article class="product">
                                     <img src="_assets/_img/_products/Photo.png" alt="[Apple Tv ]" title="Apple Tv ">
                                     <h1>Apple TV 32GB</h1>
-                                    <p>Black</p>
-                                    <p>$49,99</p>
-                                    <span>Teste</span>
+                                    <p>Preto</p>
+                                    <p>R$49,99</p>
+                                    <span>Confira !</span>
                                 </article>
                                 <article class="product">
                                     <img src="_assets/_img/_products/olo-clip.png" alt="[Ollo Clip]" title="Ollo Clip">
                                     <h1>Ollo Clip New</h1>
-                                    <p>Silver</p>
-                                    <p>$19,99</p>
-                                    <span>Teste</span>
+                                    <p>Cinza</p>
+                                    <p>R$19,99</p>
+                                    <span>Confira !</span>
                                 </article>
                             </div>
 
@@ -226,23 +223,23 @@
                                 <article class="product">
                                     <img src="_assets/_img/_products/fitbit-charge.png" alt="[FitBit]" title="FitBit">
                                     <h1>Fitbit Charge HR</h1>
-                                    <p>Black</p>
-                                    <p>$49,99</p>
-                                    <span>Teste</span>
+                                    <p>Preto</p>
+                                    <p>R$49,99</p>
+                                    <span>Confira !</span>
                                 </article>
                                 <article class="product">
                                     <img src="_assets/_img/_products/apple-watch.png" alt="[Apple Watch]" title="Apple Watch">
-                                    <h1>Apple TV 32GB</h1>
-                                    <p>Black</p>
-                                    <p>$49,99</p>
-                                    <span>Teste</span>
+                                    <h1>Apple Watch</h1>
+                                    <p>Branco</p>
+                                    <p>R$49,99</p>
+                                    <span>Confira !</span>
                                 </article>
                                 <article class="product">
                                     <img src="_assets/_img/_products/bose-soundlink.png" alt="[Bose Sound Link]" title="Sound Link">
                                     <h1>Bose SoundLink On-Ear HeadPhones</h1>
-                                    <p>White</p>
-                                    <p>$119,99</p>
-                                    <span>Teste</span>
+                                    <p>Branco</p>
+                                    <p>R$119,99</p>
+                                    <span>Confira !</span>
                                 </article>
                             </div>
                         </section>
@@ -277,7 +274,7 @@
                     <div class="col">
                         <section class="best-sellers">
                             <header class="header-best-sellers">
-                                <h1>Best Sellers</h1>
+                                <h1>Ultimas Ofertas</h1>
                             </header>
                             <div class="col col-4">
                                 <article class="product-bs">
@@ -285,6 +282,7 @@
                                     <h1>Beanie</h1>
                                     <p>Green</p>
                                     <p><span>De: $39,99</span>Por: $29.99</p>
+                                    <p class="hover">Conferir Oferta</p>
                                 </article>
                             </div>
 
@@ -294,6 +292,7 @@
                                     <h1>T-shirt With a Print</h1>
                                     <p>Dark Blue</p>
                                     <p><span>De: $29,99</span>Por: $19.99</p>
+                                    <p class="hover">Conferir Oferta</p>
                                 </article>
                             </div>
 
@@ -303,6 +302,7 @@
                                     <h1>Pile-Lined Hooded Jacket</h1>
                                     <p>Dark Blue</p>
                                     <p><span>De: $49,99</span>Por: $39.99</p>
+                                    <p class="hover">Conferir Oferta</p>
                                 </article>
                             </div>
 
@@ -312,6 +312,7 @@
                                     <h1>Trainers</h1>
                                     <p>Space Grey</p>
                                     <p><span>De: $39,99</span>Por: $29.99</p>
+                                    <p class="hover">Conferir Oferta</p>
                                 </article>
                             </div>
                         </section>
@@ -325,8 +326,8 @@
         <!--       Fim do conteudo Principal-->
 
         <div class="">
-            <div class="row">
-                <div class="col">
+            <div class="">
+                <div class="">
                     <footer class="footer-main">
                         <header class="header-footer">
                             <h1>Veja o que nossos especialistas tem a dizer</h1>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
+    <title>E-commerce</title>
     <!--[if IE]>
         <link rel="shortcut icon" href="img/#">
     <![endif]-->
@@ -13,23 +13,17 @@
     <link rel="stylesheet" href="_assets/_css/style.css">
     <link rel="stylesheet" href="_assets/_css/fonts.css">
 
-
-    <!--    Validar Formulario-->
+    <!--    Validar Email e Senha-->
     <script>
-        < script >
-            function valida() {
-                if (document.cadastro3.cpf.validity.patternMismatch) {
-                    alert("O CPF está incorreto");
-                } else {
-                    alert("O CPF está correto");
-                }
-                return false;
+        function validaSenhaEmail (input){
+	       if ((input.value != document.getElementById('Senha').value) && input.value != document.getElementById('Email').value) {
+                input.setCustomValidity('Ta errado Jovem !... Os campos devem ser iguais para conclusão do cadastro');
+            }else{
+                input.setCustomValidity('');
             }
+        }
     </script>
-
-    <!--    Validar Formulario-->
-
-    <title>E-commerce</title>
+    <!--    Validar Email e Senha-->
 </head>
 
 <body>
@@ -101,7 +95,7 @@
                                     <label for="sobrenome">Sobrenome <span style="color:#ff0000">*</span>:</label>
                                     <input type="text" class="sobrenome" id="sobrenome" name="sobrenome" required/>
                                     <label for="cpf">CPF <span style="color:#ff0000">*</span>:</label>
-                                    <input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite um CPF no formato: xxx.xxx.xxx-xx" required/>
+                                    <input type="text" name="cpf" required/>
                                     <label for="data">Data de nascimento <span style="color:#ff0000">*</span>:</label>
                                     <input type="date" class="data" id="data" name="data" required/>
 
@@ -112,19 +106,20 @@
                                         <label for="sexoF">Feminino</label>
 
                                     <label for="nome">CEP <span style="color:#ff0000">*</span>:</label>
-                                    <input type="text" name="cep" id="cep" class="cep" required pattern= "[0-9]{5}-[0-9]{3}"/>
+                                    <input type="text" name="cep" id="cep" class="cep" required/>
                                     <a href="http://www.buscacep.correios.com.br/sistemas/buscacep/buscaCepEndereco.cfm" target="_blank">Não sei o CEP</a>
 
                                     <p>Dados de acesso na Portland:</p>
-                                    <label for="email">Email <span style="color:#ff0000">*</span>:</label>
-                                    <input type="email" class="email" id="email" name="email" required/>
+                                    <label for="Email">Email <span style="color:#ff0000">*</span>:</label>
+                                    <input type="email" class="email" id="Email" name="email" required/>
                                     <label for="c_email">Confirmar Email <span style="color:#ff0000">*</span>:</label>
-                                    <input type="email" class="email" id="c_email" name="c_email" required/>
+                                    <input type="email" class="email" id="c_email" name="c_email" required oninput="validaSenhaEmail(this)"/>
 
-                                    <label for="senha">Senha <span style="color:#ff0000">*</span>:</label>
-                                    <input type="password" class="senha" id="senha" name="senha" required/>
+                                    <label for="Senha">Senha <span style="color:#ff0000">*</span>:</label>
+                                    <input type="password" class="senha" id="Senha" name="senha" required/>
+
                                     <label for="c_senha">Confirmar Senha <span style="color:#ff0000">*</span>:</label>
-                                    <input type="password" class="senha" id="c_senha" name="c_senha" required/>
+                                    <input type="password" class="senha" id="c_senha" name="c_senha" required oninput="validaSenhaEmail(this)"/>
 
                                     <input type="submit" class="enviar" value="Salvar"/>
 
